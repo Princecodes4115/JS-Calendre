@@ -44,13 +44,13 @@ const  getCalendar = async (year, startDayOfWeek) => {
   return calendar.flat(); // Flattening the nested arrays into a single array
 };
 
-const year = moment().format("2003");
+const year = moment().format("YYYY");
 const startDayOfWeek = 0; // 0: Sunday, 1: Monday, 2: Tuesday, and so on
 const calendarArray = await getCalendar(year, startDayOfWeek);
-//console.timeLog(calendarArray);
-// const [a, b, c, d, e, f, g] = calendarArray;
+// console.timeLog(calendarArray);
+const [a, b, c, d, e, f, g] = calendarArray;
 // console.log(JSON.stringify(calendarArray));
 
 //console.log(a);
 
-export default getCalendar();
+export default getCalendar;
