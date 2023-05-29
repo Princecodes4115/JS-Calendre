@@ -1,8 +1,9 @@
-# FS-CALENDRE
+# JS-CALENDRE
 
 A javascript calendar library to parsing, validating, manipulating and formatting date.
 
-### How To Use fs-calendre
- * npm install fs-calendre
+## How To Install
 
- visit [documentation](https://www.github.com/princecodes4115) for more details.
+### npm install js-calendre
+
+visit [documentation](https://github.com/Princecodes4115/JS-Calendre)) for more details.
